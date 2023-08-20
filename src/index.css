@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.device {
+  margin: 50px auto;
+  width: 400px;
+  height: 650px;
+  background-color: gray;
+  border-radius: 5%;
+  box-shadow: 4px 6px 6px 6px rgb(202, 91, 118);
+}
+
+.other {
+  height: 10px;
+  background-color: green;
+}

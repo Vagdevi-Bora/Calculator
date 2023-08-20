@@ -1,0 +1,55 @@
+.buttons_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers div {
+    padding: 3px 35px;
+    background-color: pink;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 15%;
+    margin: 4px;
+    cursor: pointer;
+    transform: scale(0.9);
+    color: white;
+}
+
+.numbers div:hover {
+    transform: scale(0.8);
+}
+
+#dot {
+    padding: 3px 40px;
+}
+
+#equal {
+    padding: 3px 32px;
+}
+
+.symbols div {
+    padding: 16px 30px;
+    background-color: rgb(202, 91, 118);
+    /* rgb(236, 64, 107); */
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10%;
+    margin: 5px;
+    transform: scale(0.9);
+    color: white;
+    font-weight: 700;
+}
+
+.symbols div:hover {
+    transform: scale(0.8);
+}
+
+#pink {
+    background-color: rgb(202, 91, 118);
+    padding: 0px 50px;
+}
